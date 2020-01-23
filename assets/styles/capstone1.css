@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Font source*/
+
+@font-face {
+  font-family: 'droid_serifbold';
+  font-style: normal;
+  font-weight: 300;
+  src: local('DroidSerif-Bold-webfont'), local('DroidSerif-Bold-webfont'), url(../fonts/droid-bold/DroidSerif-Bold-webfont.woff) format('woff');
+}
+
+/*End for font source*/
+
+
+/*Styling for landing page*/
+
+.landcover {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.landing > div > h1 {
+	font-family: 'Roboto Slab', serif;
+	position: absolute;
+	font-size: 50px;
+}
+
+.landing > div > h1 > a {
+	text-decoration: none;
+	color: #29a19c;
+	transition: 0.4s;
+}
+
+.landing > div > h1 > a:hover {
+	color: #a3f7bf;
+}
+
+.land1 {
+	background: url(../images/land1.png);
+	height: 100vh;
+	width: 25vw;
+	background-position: center;
+	background-size: cover;
+}
+
+.land2 {
+	background: url(../images/land2.png);
+	height: 100vh;
+	width: 25vw;
+	background-position: center;
+	background-size: cover;
+}
+
+.land3 {
+	background: url(../images/land3.png);
+	height: 100vh;
+	width: 25vw;
+	background-position: center;
+	background-size: cover;
+}
+
+.land4 {
+	background: url(../images/land4.png);
+	height: 100vh;
+	width: 25vw;
+	background-position: center;
+	background-size: cover;
+}
+
+/*End for landing page*/
+
+/*Styling for home page*/
+
+.home {
+	margin: 0 100px;
+}
+
+.mainNav {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.name > a {
+	text-decoration: none;
+	color: #393e46;
+	position: relative;
+	left: 10px;
+}
+
+nav {
+	line-height: 1.6;
+	position: relative;
+	bottom: 150px;
+}
+
+nav > ul, .content {
+	list-style-type: none;
+}
+
+.content > a, nav > ul > li > a {
+	text-decoration: none;
+	color: #222831;
+}
+
+.content {
+	margin: 0 30px;
+}
+
+.cover {
+	background: url(../images/home.png);
+	height: 550px;
+	width: 750px;
+	background-position: center;
+	background-size: cover;
+}
+
+/*End for home page*/
+
+/*Styling for wedding page*/
+
+.wed1 {
+	background-color: red;
+	height: 200px;
+	width: 200px;
+}
+
+.wed2 {
+	background-color: red;
+	height: 200px;
+	width: 200px;
+}
+
+.wed3 {
+	background-color: red;
+	height: 200px;
+	width: 200px;
+}
+
+.wed4 {
+	background-color: red;
+	height: 200px;
+	width: 200px;
+}
+
+.wed5 {
+	background-color: red;
+	height: 200px;
+	width: 200px;
+}
+
+.wed6 {
+	background-color: red;
+	height: 200px;
+	width: 200px;
+}
