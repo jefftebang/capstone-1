@@ -16,7 +16,7 @@
 /*End for font source*/
 
 
-/*Styling for landing page*/
+/*Styling for Landing page*/
 
 .landcover {
 	display: flex;
@@ -72,9 +72,9 @@
 	background-size: cover;
 }
 
-/*End for landing page*/
+/*End for Landing page*/
 
-/*Styling for home page*/
+/*Styling for Home page*/
 
 .home {
 	margin: 0 100px;
@@ -123,9 +123,9 @@ nav > ul, .content {
 	background-size: cover;
 }
 
-/*End for home page*/
+/*End for Home page*/
 
-/*Styling for wedding page*/
+/*Styling for Wedding page*/
 
 .wed1 {
 	background-color: red;
@@ -134,31 +134,39 @@ nav > ul, .content {
 }
 
 .wed2 {
-	background-color: red;
+	background-color: green;
 	height: 200px;
 	width: 200px;
 }
 
 .wed3 {
-	background-color: red;
+	background-color: blue;
 	height: 200px;
 	width: 200px;
 }
 
 .wed4 {
-	background-color: red;
+	background-color: brown;
 	height: 200px;
 	width: 200px;
 }
 
 .wed5 {
-	background-color: red;
+	background-color: purple;
 	height: 200px;
 	width: 200px;
 }
 
 .wed6 {
-	background-color: red;
+	background-color: salmon;
 	height: 200px;
 	width: 200px;
 }
+
+.wed-gal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*End for Wedding page*/
