@@ -2,19 +2,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
-
-/*Font source*/
-
-@font-face {
-  font-family: 'droid_serifbold';
-  font-style: normal;
-  font-weight: 300;
-  src: local('DroidSerif-Bold-webfont'), local('DroidSerif-Bold-webfont'), url(../fonts/droid-bold/DroidSerif-Bold-webfont.woff) format('woff');
-}
-
-/*End for font source*/
-
 
 /*Styling for Landing page*/
 
@@ -82,13 +71,22 @@
 	transform: scale(1.2);
 }
 
-
 /*End for Landing page*/
 
 /*Styling for Home page*/
 
 .home {
 	height: 100vh;
+}
+
+.logo {
+	background: url(../images/logo.png);
+	background-position: center;
+	background-size: cover;
+	position: fixed;
+	top: 70px;
+	height: 35px;
+	width: 35px;
 }
 
 .mainNav {
@@ -100,7 +98,13 @@
 	
 .name > a {
 	text-decoration: none;
-	color: #393e46;
+	color: #222831;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	letter-spacing: 2px;
+	font-size: 33px;
+	position: relative;
+	left: 40px;
 }
 
 .name {
@@ -126,8 +130,21 @@ nav > ul > li {
 	line-height: 2;
 }
 
+nav > ul > li > a {
+	font-family: 'Raleway', sans-serif;
+}
+
+nav > ul > li:hover, nav > ul > li > a:hover, .subNav > li > a:hover  {
+	color: #a3f7bf;
+}
+
+strong {
+	font-weight: 580;
+}
+
 .subNav > li {
 	line-height: 1.6;
+	font-family: 'Raleway', sans-serif;
 }
 
 .subNav > .c1 {
@@ -140,6 +157,7 @@ nav > ul > li {
 
 .folio-menu {
 	color: #222831;
+	font-family: 'Raleway', sans-serif;
 }
 
 .content > a, nav > ul > li > a {
@@ -153,8 +171,8 @@ nav > ul > li {
 
 .cover {
 	background: url(../images/home.png);
-	height: 540px;
-	width: 810px;
+	height: 590px;
+	width: 885px;
 	background-position: center;
 	background-size: cover;
 	position: absolute;
@@ -484,33 +502,45 @@ nav > ul > li {
 
 .profpic {
 	background: url(../images/profpic.png);
-	height: 300px;
+	height: 330px;
 	width: 250px;
 	background-position: center;
 	background-size: cover;
 	position: absolute;
-	right: 400px; 
+	right: 307px; 
   	top: 130px;
 }
 
 .title {
 	position: absolute;
 	top: 60px;
-	left: 350px; 
+	left: 400px; 
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 11pt;
+	color: #222831;
+}
+.title > h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	color: #393e46;
+	font-size: 30px;
 }
 
 .a-body {
 	position: relative;
 	top: 41px; 
+	font-size: 11pt;
+	line-height: 1.8;
 }
 
 .a-body-hi {
-	margin-right: 660px;
+	margin-right: 570px;
 }
 
 .a-body-lo {
-	margin-right: 400px;
-	margin-bottom: 200px;
+	margin-right: 300px;
+	margin-bottom: 200px;	
 }
 
 /*End for About page*/
@@ -533,22 +563,24 @@ form {
 
 .form-contents > h1 {
 	font-family: 'Raleway', sans-serif;
-	color: 
+	font-weight: 600;
+	color: #393e46;
+	font-size: 30px;
 }
 
 .form-contents > p {
-	position: absolute;
-	top: 65px;
-	right: 270px;
+	position: relative;
+	top: 70px;
 	font-family: 'Raleway', sans-serif;
 	line-height: 1.5;
-	color: #393e46;
+	color: gray;
+	margin-right: 272px;
 }
 
 .form-input	{
 	display: block;
 	width: 100%;
-	font-size: 15px;
+	font-size: 16px;
 	padding: 15px;
 	margin-top: 30px;
 }
@@ -564,7 +596,7 @@ form {
 .c1 {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 170px;
+	margin-top: 100px;
 }
 
 .d1 {
@@ -586,6 +618,7 @@ form {
 	transition: .4s;
 	position: absolute;
 	left: 337px;
+	margin-bottom: 120px;
 }
 
 .btn > a {
