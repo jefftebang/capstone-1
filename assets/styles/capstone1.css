@@ -27,7 +27,9 @@
 .landing > div > h1 {
 	font-family: 'Roboto Slab', serif;
 	position: absolute;
+	top: 250px;
 	font-size: 50px;
+	z-index: 5;
 }
 
 .landing > div > h1 > a {
@@ -41,11 +43,12 @@
 }
 
 .land1 {
-	background: url(../images/land1.png);
+	background-image: url(../images/land1.png);
 	height: 100vh;
 	width: 25vw;
 	background-position: center;
 	background-size: cover;
+	transition: all .5s;
 }
 
 .land2 {
@@ -54,6 +57,7 @@
 	width: 25vw;
 	background-position: center;
 	background-size: cover;
+	transition: all .5s;
 }
 
 .land3 {
@@ -62,6 +66,7 @@
 	width: 25vw;
 	background-position: center;
 	background-size: cover;
+	transition: all .5s;
 }
 
 .land4 {
@@ -70,40 +75,71 @@
 	width: 25vw;
 	background-position: center;
 	background-size: cover;
+	transition: all .5s;
 }
+
+.land1:hover, .land2:hover, .land3:hover, .land4:hover {
+	transform: scale(1.2);
+}
+
 
 /*End for Landing page*/
 
 /*Styling for Home page*/
 
 .home {
-	margin: 0 100px;
+	height: 100vh;
 }
 
 .mainNav {
-	height: 100vh;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: space-around;
-	flex-wrap: wrap;
+	margin-left: 65px;
+	z-index: 10;
 }
-
+	
 .name > a {
 	text-decoration: none;
 	color: #393e46;
-	position: relative;
-	left: 10px;
+}
+
+.name {
+	margin-top: 70px;
+	position: fixed;
+	z-index: 6;
 }
 
 nav {
-	line-height: 1.6;
-	position: relative;
-	bottom: 150px;
+	position: fixed;
+	z-index: 5;
+}
+
+nav > ul {
+	margin-top: 130px;
 }
 
 nav > ul, .content {
 	list-style-type: none;
+}
+
+nav > ul > li {
+	line-height: 2;
+}
+
+.subNav > li {
+	line-height: 1.6;
+}
+
+.subNav > .c1 {
+	margin-top: 10px;
+}
+
+.n3 {
+	margin-top: 20px;
+}
+
+.folio-menu {
+	color: #222831;
 }
 
 .content > a, nav > ul > li > a {
@@ -112,15 +148,18 @@ nav > ul, .content {
 }
 
 .content {
-	margin: 0 30px;
+	margin: 0 15px;
 }
 
 .cover {
 	background: url(../images/home.png);
-	height: 550px;
-	width: 750px;
+	height: 540px;
+	width: 810px;
 	background-position: center;
 	background-size: cover;
+	position: absolute;
+	right: 100px; 
+  	top: 50px;
 }
 
 /*End for Home page*/
@@ -129,44 +168,433 @@ nav > ul, .content {
 
 .wed1 {
 	background-color: red;
-	height: 200px;
-	width: 200px;
+	height: 330px;
+	width: 460px;
 }
 
 .wed2 {
 	background-color: green;
-	height: 200px;
-	width: 200px;
+	height: 330px;
+	width: 460px;
 }
 
 .wed3 {
 	background-color: blue;
-	height: 200px;
-	width: 200px;
+	height: 330px;
+	width: 460px;
 }
 
 .wed4 {
 	background-color: brown;
-	height: 200px;
-	width: 200px;
+	height: 330px;
+	width: 460px;
 }
 
 .wed5 {
 	background-color: purple;
-	height: 200px;
-	width: 200px;
+	height: 330px;
+	width: 460px;
 }
 
 .wed6 {
 	background-color: salmon;
-	height: 200px;
-	width: 200px;
+	height: 330px;
+	width: 460px;
 }
 
-.wed-gal {
+.wed-gall {
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	position: absolute;
+	right: 70px; 
+  	top: 50px;
+}
+
+.wed {
+	margin: 5px;
 }
 
 /*End for Wedding page*/
+
+/*Styling for Architectural page*/
+
+.arc1 {
+	background-color: red;
+	height: 330px;
+	width: 460px;
+}
+
+.arc2 {
+	background-color: green;
+	height: 330px;
+	width: 460px;
+}
+
+.arc3 {
+	background-color: blue;
+	height: 330px;
+	width: 460px;
+}
+
+.arc4 {
+	background-color: brown;
+	height: 330px;
+	width: 460px;
+}
+
+.arc5 {
+	background-color: purple;
+	height: 330px;
+	width: 460px;
+}
+
+.arc6 {
+	background-color: salmon;
+	height: 330px;
+	width: 460px;
+}
+
+.arc-gall {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	position: absolute;
+	right: 70px; 
+  	top: 50px;
+}
+
+.arc {
+	margin: 5px;
+}
+
+/*End for Architectural page*/
+
+/*Styling for Lifestyle page*/
+
+.lif1 {
+	background-color: red;
+	height: 330px;
+	width: 460px;
+}
+
+.lif2 {
+	background-color: green;
+	height: 330px;
+	width: 460px;
+}
+
+.lif3 {
+	background-color: blue;
+	height: 330px;
+	width: 460px;
+}
+
+.lif4 {
+	background-color: brown;
+	height: 330px;
+	width: 460px;
+}
+
+.lif5 {
+	background-color: purple;
+	height: 330px;
+	width: 460px;
+}
+
+.lif6 {
+	background-color: salmon;
+	height: 330px;
+	width: 460px;
+}
+
+.lif-gall {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	position: absolute;
+	right: 70px; 
+  	top: 50px;
+}
+
+.lif {
+	margin: 5px;
+}
+
+/*End for Lifestyle page*/
+
+/*Styling for Portrait page*/
+
+.por1 {
+	background-color: red;
+	height: 330px;
+	width: 460px;
+}
+
+.por2 {
+	background-color: green;
+	height: 330px;
+	width: 460px;
+}
+
+.por3 {
+	background-color: blue;
+	height: 330px;
+	width: 460px;
+}
+
+.por4 {
+	background-color: brown;
+	height: 330px;
+	width: 460px;
+}
+
+.por5 {
+	background-color: purple;
+	height: 330px;
+	width: 460px;
+}
+
+.por6 {
+	background-color: salmon;
+	height: 330px;
+	width: 460px;
+}
+
+.por-gall {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	position: absolute;
+	right: 70px; 
+  	top: 50px;
+}
+
+.por {
+	margin: 5px;
+}
+
+/*End for Portrait page*/
+
+/*Styling for Projects page*/
+
+.proj1 {
+	background: url();
+	height: 330px;
+	width: 460px;
+}
+
+.projt1 {
+	height: 330px;
+	width: 460px;
+	display: flex;
+	align-items: center;
+}
+
+.projt1 > h1 {
+	margin-left: 50px;
+}
+
+.proj2 {
+	background: url();;
+	height: 330px;
+	width: 460px;
+}
+
+.projt2 {
+	height: 330px;
+	width: 460px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.projt2 > h1 {
+	margin-right: 50px;
+}
+
+.proj3 {
+	background: url();
+	height: 330px;
+	width: 460px;
+}
+
+.projt3 {
+	height: 330px;
+	width: 460px;
+	display: flex;
+	align-items: center;
+}
+
+.projt3 > h1 {
+	margin-left: 50px;
+}
+
+.proj4 {
+	background: url();
+	height: 330px;
+	width: 460px;
+}
+
+.projt4 {
+	height: 330px;
+	width: 460px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.projt4 > h1 {
+	margin-right: 50px;
+}
+
+.proj5 {
+	background: url();
+	height: 330px;
+	width: 460px;
+}
+
+.projt5 {
+	height: 330px;
+	width: 460px;
+	display: flex;
+	align-items: center;
+}
+
+.projt5 > h1 {
+	margin-left: 50px;
+}
+
+.proj-gall {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	position: absolute;
+	right: 70px; 
+  	top: 50px;
+}
+
+.proj {
+	margin: 5px;
+}
+
+/*End for Projects page*/
+
+/*Styling for About page*/
+
+.profpic {
+	background: url(../images/profpic.png);
+	height: 300px;
+	width: 250px;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	right: 400px; 
+  	top: 130px;
+}
+
+.title {
+	position: absolute;
+	top: 60px;
+	left: 350px; 
+}
+
+.a-body {
+	position: relative;
+	top: 41px; 
+}
+
+.a-body-hi {
+	margin-right: 660px;
+}
+
+.a-body-lo {
+	margin-right: 400px;
+	margin-bottom: 200px;
+}
+
+/*End for About page*/
+
+/*Styling for Contact page*/
+
+form {
+	width: 60%;
+	align-items: center;
+}
+
+.form-contents {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 80px;
+	left: 400px;
+}
+
+.form-contents > h1 {
+	font-family: 'Raleway', sans-serif;
+	color: 
+}
+
+.form-contents > p {
+	position: absolute;
+	top: 65px;
+	right: 270px;
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.5;
+	color: #393e46;
+}
+
+.form-input	{
+	display: block;
+	width: 100%;
+	font-size: 15px;
+	padding: 15px;
+	margin-top: 30px;
+}
+
+.country {
+	display: block;
+	width: 100%;
+	font-size: 15px;
+	margin-top: 30px;
+	padding: 3px;
+}
+
+.c1 {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 170px;
+}
+
+.d1 {
+	margin-right: 10px;
+}
+
+/*End for Contact page*/
+
+/*Styling for button*/
+
+.btn {
+	background-color: #222831;
+	color: white;
+	border-style: none;
+	padding: 8px 15px;
+	transition: .4s;
+	font-size: 12pt;
+	font-weight: 600;
+	transition: .4s;
+	position: absolute;
+	left: 337px;
+}
+
+.btn > a {
+	text-decoration: none;
+	color: white;
+}
+
+.btn:hover {
+	background-color: #29a19c;
+}
+
+/*End for button*/
