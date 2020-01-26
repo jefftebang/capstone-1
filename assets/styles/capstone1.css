@@ -170,8 +170,8 @@ strong {
 	margin: 0 15px;
 }
 
-/*.cover {
-	background: url(../images/f-por5.jpg);
+.cover {
+	background: url(../images/f-por2.jpg);
 	height: 590px;
 	width: 885px;
 	background-position: center;
@@ -179,9 +179,7 @@ strong {
 	position: absolute;
 	right: 100px; 
   	top: 50px;
-}*/
-
-
+}
 
 /*End for Home page*/
 
