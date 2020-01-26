@@ -16,7 +16,7 @@
 .landing > div > h1 {
 	font-family: 'Roboto Slab', serif;
 	position: absolute;
-	top: 250px;
+	top: 290px;
 	font-size: 50px;
 	z-index: 5;
 }
@@ -32,43 +32,44 @@
 }
 
 .land1 {
-	background-image: url(../images/land1.png);
+	background-image: url(../images/land1.jpg);
 	height: 100vh;
 	width: 25vw;
 	background-position: center;
 	background-size: cover;
-	transition: all .5s;
+	transition: all .2s;
 }
 
 .land2 {
-	background: url(../images/land2.png);
+	background: url(../images/land2.jpg);
 	height: 100vh;
 	width: 25vw;
 	background-position: center;
 	background-size: cover;
-	transition: all .5s;
+	transition: all .2s;
 }
 
 .land3 {
-	background: url(../images/land3.png);
+	background: url(../images/land3.jpg);
 	height: 100vh;
 	width: 25vw;
 	background-position: center;
 	background-size: cover;
-	transition: all .5s;
+	transition: all .2s;
 }
 
 .land4 {
-	background: url(../images/land4.png);
+	background: url(../images/land4.jpg);
 	height: 100vh;
 	width: 25vw;
 	background-position: center;
 	background-size: cover;
-	transition: all .5s;
+	transition: all .2s;
 }
 
 .land1:hover, .land2:hover, .land3:hover, .land4:hover {
-	transform: scale(1.2);
+	/*transform: scale(1.2);*/
+	color: rgba(255,255,255,50%);
 }
 
 /*End for Landing page*/
@@ -185,37 +186,49 @@ strong {
 /*Styling for Wedding page*/
 
 .wed1 {
-	background-color: red;
+	background: url(../images/wed1.jpg);
+	background-position: top;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
 
 .wed2 {
-	background-color: green;
+	background: url(../images/wed2.jpg);
+	background-position: top;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
 
 .wed3 {
-	background-color: blue;
+	background: url(../images/wed3.jpg);
+	background-position: top;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
 
 .wed4 {
-	background-color: brown;
+	background: url(../images/wed4.jpg);
+	background-position: top;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
 
 .wed5 {
-	background-color: purple;
+	background: url(../images/wed5.jpg);
+	background-position: center;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
 
 .wed6 {
-	background-color: salmon;
+	background: url(../images/wed6.jpg);
+	background-position: top;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
@@ -227,6 +240,7 @@ strong {
 	position: absolute;
 	right: 70px; 
   	top: 50px;
+  	margin-bottom: 100px;
 }
 
 .wed {
@@ -238,37 +252,49 @@ strong {
 /*Styling for Architectural page*/
 
 .arc1 {
-	background-color: red;
+	background: url(../images/arc1.jpg);
+	background-position: top;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
 
 .arc2 {
-	background-color: green;
+	background: url(../images/arc2.jpg);
+	background-position: top;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
 
 .arc3 {
-	background-color: blue;
+	background: url(../images/arc3.jpg);
+	background-position: top;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
 
 .arc4 {
-	background-color: brown;
+	background: url(../images/arc4.jpg);
+	background-position: top;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
 
 .arc5 {
-	background-color: purple;
+	background: url(../images/arc5.jpg);
+	background-position: top;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
 
 .arc6 {
-	background-color: salmon;
+	background: url(../images/arc6.jpg);
+	background-position: top;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
@@ -280,6 +306,7 @@ strong {
 	position: absolute;
 	right: 70px; 
   	top: 50px;
+  	margin-bottom: 100px;
 }
 
 .arc {
@@ -291,37 +318,49 @@ strong {
 /*Styling for Lifestyle page*/
 
 .lif1 {
-	background-color: red;
+	background: url(../images/lyf1.jpg);
+	background-position: top;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
 
 .lif2 {
-	background-color: green;
+	background: url(../images/lyf2.jpg);
+	background-position: top;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
 
 .lif3 {
-	background-color: blue;
+	background: url(../images/lyf3.jpg);
+	background-position: top;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
 
 .lif4 {
-	background-color: brown;
+	background: url(../images/lyf4.jpg);
+	background-position: top;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
 
 .lif5 {
-	background-color: purple;
+	background: url(../images/lyf5.jpg);
+	background-position: top;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
 
 .lif6 {
-	background-color: salmon;
+	background: url(../images/lyf6.jpg);
+	background-position: top;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
@@ -333,6 +372,7 @@ strong {
 	position: absolute;
 	right: 70px; 
   	top: 50px;
+  	margin-bottom: 100px;
 }
 
 .lif {
@@ -344,37 +384,49 @@ strong {
 /*Styling for Portrait page*/
 
 .por1 {
-	background-color: red;
+	background: url(../images/por1.jpg);
+	background-position: top;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
 
 .por2 {
-	background-color: green;
+	background: url(../images/por2.jpg);
+	background-position: top;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
 
 .por3 {
-	background-color: blue;
+	background: url(../images/por3.jpg);
+	background-position: center;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
 
 .por4 {
-	background-color: brown;
+	background: url(../images/por4.jpg);
+	background-position: top;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
 
 .por5 {
-	background-color: purple;
+	background: url(../images/por5.jpg);
+	background-position: center;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
 
 .por6 {
-	background-color: salmon;
+	background: url(../images/por6.jpg);
+	background-position: center;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
@@ -386,6 +438,7 @@ strong {
 	position: absolute;
 	right: 70px; 
   	top: 50px;
+  	margin-bottom: 100px;
 }
 
 .por {
@@ -490,6 +543,7 @@ strong {
 	position: absolute;
 	right: 70px; 
   	top: 50px;
+  	margin-bottom: 100px;
 }
 
 .proj {
