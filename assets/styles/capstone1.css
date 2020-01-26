@@ -170,8 +170,8 @@ strong {
 	margin: 0 15px;
 }
 
-.cover {
-	background: url(../images/home.png);
+/*.cover {
+	background: url(../images/f-por5.jpg);
 	height: 590px;
 	width: 885px;
 	background-position: center;
@@ -179,7 +179,9 @@ strong {
 	position: absolute;
 	right: 100px; 
   	top: 50px;
-}
+}*/
+
+
 
 /*End for Home page*/
 
@@ -450,7 +452,9 @@ strong {
 /*Styling for Projects page*/
 
 .proj1 {
-	background: url();
+	background: url(../images/proj1.jpg);
+	background-position: center;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
@@ -459,15 +463,26 @@ strong {
 	height: 330px;
 	width: 460px;
 	display: flex;
-	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 11pt;
+	color: #222831;
+	line-height: 1.3;
 }
 
 .projt1 > h1 {
-	margin-left: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	color: #393e46;
+	font-size: 20pt;
 }
 
 .proj2 {
-	background: url();;
+	background: url(../images/proj2.jpg);
+	background-position: center;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
@@ -476,16 +491,26 @@ strong {
 	height: 330px;
 	width: 460px;
 	display: flex;
-	justify-content: flex-end;
-	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 11pt;
+	color: #222831;
+	line-height: 1.3;
 }
 
 .projt2 > h1 {
-	margin-right: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	color: #393e46;
+	font-size: 20pt;
 }
 
 .proj3 {
-	background: url();
+	background: url(../images/proj3.jpg);
+	background-position: center;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
@@ -494,15 +519,26 @@ strong {
 	height: 330px;
 	width: 460px;
 	display: flex;
-	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 11pt;
+	color: #222831;
+	line-height: 1.3;
 }
 
 .projt3 > h1 {
-	margin-left: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	color: #393e46;
+	font-size: 20pt;
 }
 
 .proj4 {
-	background: url();
+	background: url(../images/proj4.jpg);
+	background-position: center;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
@@ -511,16 +547,26 @@ strong {
 	height: 330px;
 	width: 460px;
 	display: flex;
-	justify-content: flex-end;
-	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 11pt;
+	color: #222831;
+	line-height: 1.3;
 }
 
 .projt4 > h1 {
-	margin-right: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	color: #393e46;
+	font-size: 20pt;
 }
 
 .proj5 {
-	background: url();
+	background: url(../images/proj5.jpg);
+	background-position: center;
+	background-size: cover;
 	height: 330px;
 	width: 460px;
 }
@@ -529,11 +575,20 @@ strong {
 	height: 330px;
 	width: 460px;
 	display: flex;
-	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 11pt;
+	color: #222831;
+	line-height: 1.3;
 }
 
 .projt5 > h1 {
-	margin-left: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	color: #393e46;
+	font-size: 20pt;
 }
 
 .proj-gall {
