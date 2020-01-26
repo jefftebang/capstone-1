@@ -271,7 +271,7 @@ strong {
 
 .arc3 {
 	background: url(../images/arc3.jpg);
-	background-position: top;
+	background-position: center;
 	background-size: cover;
 	height: 330px;
 	width: 460px;
