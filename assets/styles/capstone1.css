@@ -186,7 +186,7 @@ strong {
 	left: 360px; 
 	top: 50px;
 }
-.slide1,.slide2,.slide3,.slide4,.slide5 {
+.slide1, .slide2, .slide3, .slide4, .slide5 {
   	position: absolute;
   	width: 100%;
   	height: 100%;
@@ -943,7 +943,7 @@ form {
 	    display: flex;
 	    align-items: flex-end;
 	    flex-direction: column;
-	    bottom: 75px;
+	    top: 73px;
 	    right: 65px;
 	    z-index: 2;
 	}
@@ -966,7 +966,7 @@ form {
 	}
 
 	.menu-content {
-	    position: relative;
+	    position: absolute;
 	    z-index: 10;
 
 	    /* use opacity to fake immediate toggle */
@@ -975,7 +975,7 @@ form {
 	    transition: visibility 0.5s;
 	    background-color: #222831;
 	    padding: 180px 230px;
-	    bottom: 30px;
+	    top: 28px;
 	}
 
 	.menu-content > li > a, .menu-content > li {
@@ -1483,8 +1483,8 @@ form {
 	    display: flex;
 	    align-items: flex-end;
 	    flex-direction: column;
-	    bottom: 75px;
-	    right: 65px;
+	    bottom: 600px;
+	    right: 15px;
 	    z-index: 2;
 	}
 
@@ -1492,7 +1492,7 @@ form {
 	    content: "Menu";
 	    font-family: 'Raleway', sans-serif;
 		font-weight: 500;
-		font-size: 22px;
+		font-size: 12px;
 		color: #393e46;
 	}
 
@@ -1506,7 +1506,7 @@ form {
 	}
 
 	.menu-content {
-	    position: relative;
+	    position: absolute;
 	    z-index: 10;
 
 	    /* use opacity to fake immediate toggle */
@@ -1514,25 +1514,25 @@ form {
 	    visibility: hidden;
 	    transition: visibility 0.5s;
 	    background-color: #222831;
-	    padding: 180px 230px;
-	    bottom: 30px;
+	    padding: 60px 125px;
+	    top: 18px;
 	}
 
 	.menu-content > li > a, .menu-content > li {
     	font-family: 'Raleway', sans-serif;
 		font-weight: 400;
-		font-size: 20px;
+		font-size: 10px;
 		color: white;
 		text-decoration: none;
 		list-style-type: none;
 		text-align: center;
-		padding: 15px;
+		padding: 10px;
     }
 
     .nav-bg {
     	background-color: white;
     	width: 100vw;
-    	height: 130px;
+    	height: 90px;
     	position: fixed;
     	z-index: 1;
     }
@@ -1542,19 +1542,493 @@ form {
 	/*Start Home page*/
 
 	.slider {
-		height: 745px;
-		width: 640px;
+		height: 500px;
+		width: 350px;
 		position: relative;
-		top: 170px;
-		left: -1px;
+		top: 100px;
+		left: -52.5px;
+	}
+
+	.slide3 {
+		background-position: center;
+	}
+
+	.logo {
+		left: 11px;
+		height: 20px;
+		width: 20px;
+		top: 50px;
+	}
+
+	.name > a {
+		font-size: 12px;
+		top: -27px;
+		left: -30px;
 	}
 
 	/*End Home page*/
 
+	/*Start Wedding page*/
 
+	.wed-gall {
+		position: absolute;
+		top: 100px;
+		left: 20px;
+		right: 20px;
+	}
+
+	.wed1 {
+		background: url(../images/wed1.jpg);
+		background-position: top;
+		background-size: cover;
+		height: 510px;
+		width: 360px;
+	}
+
+	.wed2 {
+		background: url(../images/wed2.jpg);
+		background-position: top;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}
+
+	.wed3 {
+		background: url(../images/wed3.jpg);
+		background-position: left;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}
+
+	.wed4 {
+		background: url(../images/wed4.jpg);
+		background-position: top;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}
+
+	.wed5 {
+		background: url(../images/wed5.jpg);
+		background-position: center;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}
+
+	.wed6 {
+		background: url(../images/wed6.jpg);
+		background-position: top;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}	
+
+	/*End Wedding page*/
+
+	/*Start Architectural page*/
+
+	.arc-gall {
+		position: absolute;
+		top: 100px;
+		left: 20px;
+		right: 20px;
+	}
+
+	.arc1 {
+		background: url(../images/arc1.jpg);
+		background-position: top;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}
+
+	.arc2 {
+		background: url(../images/arc2.jpg);
+		background-position: top;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}
+
+	.arc3 {
+		background: url(../images/arc3.jpg);
+		background-position: top;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}
+
+	.arc4 {
+		background: url(../images/arc4.jpg);
+		background-position: top;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}
+
+	.arc5 {
+		background: url(../images/arc5.jpg);
+		background-position: center;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}
+
+	.arc6 {
+		background: url(../images/arc6.jpg);
+		background-position: top;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}	
+
+	/*End Architectural page*/
+
+	/*Start Lifestyle page*/
+
+	.lif-gall {
+		position: absolute;
+		top: 100px;
+		left: 20px;
+		right: 20px;
+	}
+
+	.lif1 {
+		background: url(../images/lyf1.jpg);
+		background-position: top;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}
+
+	.lif2 {
+		background: url(../images/lyf2.jpg);
+		background-position: top;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}
+
+	.lif3 {
+		background: url(../images/lyf3.jpg);
+		background-position: top;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}
+
+	.lif4 {
+		background: url(../images/lyf4.jpg);
+		background-position: top;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}
+
+	.lif5 {
+		background: url(../images/lyf5.jpg);
+		background-position: center;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}
+
+	.lif6 {
+		background: url(../images/lyf6.jpg);
+		background-position: top;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}	
+
+	/*End Lifestyle page*/
+
+	/*Start Portrait page*/
+
+	.por-gall {
+		position: absolute;
+		top: 100px;
+		left: 20px;
+		right: 20px;
+	}
+
+	.por1 {
+		background: url(../images/por1.jpg);
+		background-position: top;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}
+
+	.por2 {
+		background: url(../images/por2.jpg);
+		background-position: top;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}
+
+	.por3 {
+		background: url(../images/por3.jpg);
+		background-position: top;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}
+
+	.por4 {
+		background: url(../images/por4.jpg);
+		background-position: top;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}
+
+	.por5 {
+		background: url(../images/por5.jpg);
+		background-position: center;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}
+
+	.por6 {
+		background: url(../images/por6.jpg);
+		background-position: top;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}	
+
+	/*End Portrait page*/
+
+	/*Start Projects page*/
+
+	.proj-gall {
+		display: none;
+	}
+
+	.proj-corr {
+		position: absolute;
+		top: 166px;
+		left: 54px;
+		margin-bottom: 100px;
+	}
+
+	.proj1-c {
+		background: url(../images/proj1.jpg);
+		background-position: center;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}
+
+	.projt1-c {
+		height: 230px;
+		width: 640px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 400;
+		font-size: 11pt;
+		color: #222831;
+		line-height: 1.3;
+		margin-bottom: 50px;
+	}
+
+	.projt1-c > h1 {
+		font-family: 'Raleway', sans-serif;
+		font-weight: 600;
+		color: #393e46;
+		font-size: 18pt;
+	}
+
+	.proj2-c {
+		background: url(../images/proj2.jpg);
+		background-position: center;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}
+
+	.projt2-c {
+		height: 230px;
+		width: 640px;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 400;
+		font-size: 11pt;
+		color: #222831;
+		line-height: 1.3;
+	}
+
+	.projt2-c > h1 {
+		font-family: 'Raleway', sans-serif;
+		font-weight: 600;
+		color: #393e46;
+		font-size: 18pt;
+	}
+
+	.proj3-c {
+		background: url(../images/proj3.jpg);
+		background-position: center;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}
+
+	.projt3-c {
+		height: 230px;
+		width: 640px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 400;
+		font-size: 11pt;
+		color: #222831;
+		line-height: 1.3;
+	}
+
+	.projt3-c > h1 {
+		font-family: 'Raleway', sans-serif;
+		font-weight: 600;
+		color: #393e46;
+		font-size: 18pt;
+	}
+
+	.proj4-c {
+		background: url(../images/proj4.jpg);
+		background-position: center;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}
+
+	.projt4-c {
+		height: 230px;
+		width: 640px;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 400;
+		font-size: 11pt;
+		color: #222831;
+		line-height: 1.3;
+	}
+
+	.projt4-c > h1 {
+		font-family: 'Raleway', sans-serif;
+		font-weight: 600;
+		color: #393e46;
+		font-size: 18pt;
+	}
+
+	.proj5-c {
+		background: url(../images/proj5.jpg);
+		background-position: center;
+		background-size: cover;
+		height: 510px;
+		width: 640px;
+	}
+
+	.projt5-c {
+		height: 230px;
+		width: 640px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 400;
+		font-size: 11pt;
+		color: #222831;
+		line-height: 1.3;
+	}
+
+	.projt5-c > h1 {
+		font-family: 'Raleway', sans-serif;
+		font-weight: 600;
+		color: #393e46;
+		font-size: 18pt;
+	}
+
+	.proj-c {
+		margin: 10px;
+	}
+
+	/*End Projects page*/
+
+	/*Start About page*/
+
+	.profpic {
+		height: 430px;
+		width: 330px;
+		right: 210px;
+		top: 220px;
+	}
+
+	.title > h1 {
+		position: relative;
+		right: 50px;
+		top: 100px;
+	}
+
+	.a-body {
+		position: absolute;
+		left: -332px;
+		top: 620px;
+	}
+
+	.a-body-hi {
+		margin-right: -227px;
+	}
+
+	.a-body-lo {
+		margin-right: -227px;
+	}
+
+	/*End About page*/
+
+	/*Start Contact page*/
+
+	.form-contents > p {
+		position: absolute;
+		left: -333px;
+		top: 150px;
+		margin-right: 80px;
+	}
+
+	.form-contents > h1 {
+		position: absolute;
+		top: 100px;
+		left: -75px;
+	}
+
+	.form-contents > form {
+		position: absolute;
+		top: 150px;
+		left: -335px;
+	}
+
+	form {
+	width: 169%;
+	align-items: center;
+	}
+
+	.btn {
+		left: 575px;
+	}
+
+	/*End Contact page*/
 }
 
-
+/*End for iPhone 6/7/8*/
 
 
 
