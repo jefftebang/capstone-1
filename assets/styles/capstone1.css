@@ -1407,7 +1407,7 @@ form {
 
 	.profpic {
 		height: 430px;
-		width: 350px;
+		width: 330px;
 		right: 210px;
 		top: 220px;
 	}
@@ -1466,3 +1466,95 @@ form {
 
 	/*End Contact page*/
 }
+
+/*End for iPad*/
+
+/*for iPhone 6/7/8*/
+@media only screen and (max-width: 375px) {
+
+	nav {
+		visibility: hidden;
+	} 
+
+	.menu {
+	    position: absolute;
+	    position: fixed;
+	    display: inline-block;
+	    display: flex;
+	    align-items: flex-end;
+	    flex-direction: column;
+	    bottom: 75px;
+	    right: 65px;
+	    z-index: 2;
+	}
+
+	.menu:before {
+	    content: "Menu";
+	    font-family: 'Raleway', sans-serif;
+		font-weight: 500;
+		font-size: 22px;
+		color: #393e46;
+	}
+
+	.menu:focus .menu-content {
+	    /*  opacity is 1 in opened state (see below) */
+	    opacity: 1;
+	    visibility: visible;
+
+	    /* don't let pointer-events affect descendant elements */
+	    pointer-events: auto;
+	}
+
+	.menu-content {
+	    position: relative;
+	    z-index: 10;
+
+	    /* use opacity to fake immediate toggle */
+	    opacity: 0;
+	    visibility: hidden;
+	    transition: visibility 0.5s;
+	    background-color: #222831;
+	    padding: 180px 230px;
+	    bottom: 30px;
+	}
+
+	.menu-content > li > a, .menu-content > li {
+    	font-family: 'Raleway', sans-serif;
+		font-weight: 400;
+		font-size: 20px;
+		color: white;
+		text-decoration: none;
+		list-style-type: none;
+		text-align: center;
+		padding: 15px;
+    }
+
+    .nav-bg {
+    	background-color: white;
+    	width: 100vw;
+    	height: 130px;
+    	position: fixed;
+    	z-index: 1;
+    }
+
+    /*End for navigation alternative*/
+
+	/*Start Home page*/
+
+	.slider {
+		height: 745px;
+		width: 640px;
+		position: relative;
+		top: 170px;
+		left: -1px;
+	}
+
+	/*End Home page*/
+
+
+}
+
+
+
+
+
