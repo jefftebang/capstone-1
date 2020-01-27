@@ -68,8 +68,8 @@
 }
 
 .land1:hover, .land2:hover, .land3:hover, .land4:hover {
-	/*transform: scale(1.2);*/
-	color: rgba(255,255,255,50%);
+	transform: scale(1.1);
+	/*color: rgba(255,255,255,50%);*/
 }
 
 /*End for Landing page*/
@@ -102,8 +102,8 @@
 	color: #222831;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
-	letter-spacing: 2px;
-	font-size: 33px;
+	letter-spacing: 1.2px;
+	font-size: 30px;
 	position: relative;
 	left: 40px;
 }
@@ -170,15 +170,162 @@ strong {
 	margin: 0 15px;
 }
 
-.cover {
-	background: url(../images/f-por2.jpg);
-	height: 590px;
-	width: 885px;
-	background-position: center;
-	background-size: cover;
-	position: absolute;
-	right: 100px; 
-  	top: 50px;
+.slider {
+	height: 540px;
+	width: 845px;
+	position: relative;
+	left: 360px; 
+	top: 50px;
+}
+.slide1,.slide2,.slide3,.slide4,.slide5 {
+  	position: absolute;
+  	width: 100%;
+  	height: 100%;
+}
+.slide1 {
+  	background: url(../images/fet1.jpg)no-repeat center;
+    background-size: cover;
+    animation:fade 10s infinite;
+	/*-webkit-animation:fade 10s infinite;*/
+
+} 
+
+.slide2 {
+  	background: url(../images/fet2.jpg)no-repeat center;
+    background-size: cover;
+    animation:fade2 10s infinite;
+	/*-webkit-animation:fade2 10s infinite;*/
+}
+
+.slide3 {
+    background: url(../images/fet3.jpg)no-repeat center;
+    background-size: cover;
+    animation:fade3 10s infinite;
+	/*-webkit-animation:fade3 10s infinite;*/
+}
+
+.slide4 {
+    background: url(../images/fet4.jpg)no-repeat center;
+    background-size: cover;
+    animation:fade4 10s infinite;
+	/*-webkit-animation:fade4 10s infinite;*/
+}
+
+.slide5 {
+    background: url(../images/fet5.jpg)no-repeat center;
+    background-size: cover;
+    animation:fade5 10s infinite;
+	/*-webkit-animation:fade5 10s infinite;*/
+}
+
+@keyframes fade
+{
+  0%   {
+  	opacity:1
+  }
+  20% { 
+  	opacity: 0
+  }
+  40% { 
+  	opacity: 0
+  }
+  60% { 
+  	opacity: 0
+  }
+  80% { 
+  	opacity: 0
+  }
+  100% {
+  	opacity: 1
+  }
+}
+
+@keyframes fade2
+{
+  0%   {
+  	opacity:0
+  }
+  20% { 
+  	opacity: 1
+  }
+  40% { 
+  	opacity: 0
+  }
+  60% { 
+  	opacity: 0
+  }
+  80% { 
+  	opacity: 0
+  }
+  100% {
+  	opacity: 0
+  }
+}
+
+@keyframes fade3
+{
+  0%   {
+  	opacity:0
+  }
+  20% { 
+  	opacity: 0
+  }
+  40% { 
+  	opacity: 1
+  }
+  60% { 
+  	opacity: 0
+  }
+  80% { 
+  	opacity: 0
+  }
+  100% {
+  	opacity: 0
+  }
+}
+
+@keyframes fade4
+{
+  0%   {
+  	opacity: 0
+  }
+  20% { 
+  	opacity: 0
+  }
+  40% { 
+  	opacity: 0
+  }
+  60% { 
+  	opacity: 1
+  }
+  80% { 
+  	opacity: 0
+  }
+  100% {
+  	opacity: 0
+  }
+}
+
+@keyframes fade5
+{
+  0%   {
+  	opacity: 0
+  }
+  20% { 
+  	opacity: 0
+  }
+  40% { 
+  	opacity: 0
+  }
+  60% { 
+  	opacity: 0
+  }
+  80% { 
+  	opacity: 1
+  }
+  100% {
+  	opacity: 0
+  }
 }
 
 /*End for Home page*/
