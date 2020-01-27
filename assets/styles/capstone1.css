@@ -191,40 +191,40 @@ strong {
   	width: 100%;
   	height: 100%;
 }
+
 .slide1 {
   	background: url(../images/fet1.jpg)no-repeat center;
     background-size: cover;
     animation:fade 10s infinite;
-	/*-webkit-animation:fade 10s infinite;*/
-
+	-webkit-animation:fade 10s infinite;
 } 
 
 .slide2 {
   	background: url(../images/fet2.jpg)no-repeat center;
     background-size: cover;
     animation:fade2 10s infinite;
-	/*-webkit-animation:fade2 10s infinite;*/
+	-webkit-animation:fade2 10s infinite;
 }
 
 .slide3 {
     background: url(../images/fet3.jpg)no-repeat center;
     background-size: cover;
     animation:fade3 10s infinite;
-	/*-webkit-animation:fade3 10s infinite;*/
+	-webkit-animation:fade3 10s infinite;
 }
 
 .slide4 {
     background: url(../images/fet4.jpg)no-repeat center;
     background-size: cover;
     animation:fade4 10s infinite;
-	/*-webkit-animation:fade4 10s infinite;*/
+	-webkit-animation:fade4 10s infinite;
 }
 
 .slide5 {
     background: url(../images/fet5.jpg)no-repeat center;
     background-size: cover;
     animation:fade5 10s infinite;
-	/*-webkit-animation:fade5 10s infinite;*/
+	-webkit-animation:fade5 10s infinite;
 }
 
 @keyframes fade
@@ -764,7 +764,7 @@ strong {
 /*Styling for About page*/
 
 .profpic {
-	background: url(../images/profpic.png);
+	content: url(../images/profpic2.jpg);
 	height: 330px;
 	width: 250px;
 	background-position: center;
@@ -772,6 +772,10 @@ strong {
 	position: absolute;
 	right: 307px; 
   	top: 130px;
+}
+
+.profpic:checked {
+	content: url(../images/profpic.png);
 }
 
 .title {
