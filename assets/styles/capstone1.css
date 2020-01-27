@@ -1401,8 +1401,64 @@ form {
 
 	/*Start About page*/
 
-	.
+	.profpic {
+		height: 430px;
+		width: 350px;
+		right: 210px;
+		top: 220px;
+	}
+
+	.title > h1 {
+		position: relative;
+		right: 50px;
+		top: 100px;
+	}
+
+	.a-body {
+		position: absolute;
+		left: -332px;
+		top: 620px;
+	}
+
+	.a-body-hi {
+		margin-right: -227px;
+	}
+
+	.a-body-lo {
+		margin-right: -227px;
+	}
 
 	/*End About page*/
 
+	/*Start Contact page*/
+
+	.form-contents > p {
+		position: absolute;
+		left: -333px;
+		top: 150px;
+		margin-right: 80px;
+	}
+
+	.form-contents > h1 {
+		position: absolute;
+		top: 100px;
+		left: -75px;
+	}
+
+	.form-contents > form {
+		position: absolute;
+		top: 150px;
+		left: -335px;
+	}
+
+	form {
+	width: 169%;
+	align-items: center;
+	}
+
+	.btn {
+		left: 575px;
+	}
+
+	/*End Contact page*/
 }
