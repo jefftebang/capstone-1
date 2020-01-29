@@ -919,6 +919,28 @@ form {
 	}
 }
 
+/*for 1280px display*/
+@media only screen and (min-width: 771px) and (max-width: 1280px) {
+
+	/*start for home page*/
+
+	.slider {
+		position: absolute;
+		right: 300px;
+	}
+
+	/*end for home page*/
+
+	/*start for wedding page*/
+
+	.wed-gall {
+		position: absolute;
+		right: 50px;
+	}
+
+	/*end for wedding page*/
+}	
+
 /*for iPad*/
 @media only screen and (min-width: 376px) and (max-width: 770px) {
 	
